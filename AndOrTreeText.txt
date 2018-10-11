@@ -1,0 +1,19 @@
+18
+0 Or False
+1 Or True
+2 Or True
+3 Or Unknown 0
+4 And Unknown 1 2
+5 Or False
+6 Or True
+7 Or True
+8 Or True
+9 Or False
+10 Or True
+11 Or Unknown 3 4
+12 And Unknown 5 6
+13 And Unknown 7 8
+14 Or Unknown 9 10
+15 Or Unknown 11 12
+16 Or Unknown 13 14
+17 Or Unknown 15 16
