@@ -18,6 +18,5 @@ public class Main
         AndOrTree BFSSolutionTree = tree.BreadthFirstSearch();
         // 打印解树。
         System.out.println(BFSSolutionTree);
-
     }
 }
