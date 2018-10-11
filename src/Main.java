@@ -2,16 +2,21 @@ public class Main
 {
     public static void main(String[] args) throws Exception
     {
+        // 初始化一个与或树。
         AndOrTree tree = new AndOrTree("AndOrTreeText.txt");
 
         System.out.println("DFS:");
+        // 深度优先搜索解树。
         AndOrTree DFSSolutionTree = tree.DepthFirstSearch();
+        // 打印解树。
         System.out.println(DFSSolutionTree);
 
         System.out.println();
 
         System.out.println("BFS:");
-        AndOrTree BFSSolutionTree = tree.DepthFirstSearch();
+        // 广度优先搜索解树。
+        AndOrTree BFSSolutionTree = tree.BreadthFirstSearch();
+        // 打印解树。
         System.out.println(BFSSolutionTree);
 
     }
