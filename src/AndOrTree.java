@@ -130,6 +130,7 @@ public class AndOrTree
         boolean[] marked = new boolean[treeNodes.length];
 
         LinkedList<AndOrTreeNode> bfsQueue = new LinkedList<>();
+        return null;
     }
 
 
