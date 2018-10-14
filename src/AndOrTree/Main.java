@@ -1,9 +1,11 @@
+package AndOrTree;
+
 public class Main
 {
     public static void main(String[] args) throws Exception
     {
         // 初始化一个与或树。
-        AndOrTree tree = new AndOrTree("AndOrTreeText.txt");
+        AndOrTree tree = new AndOrTree("src/AndOrTree/AndOrTreeText.txt");
 
         System.out.println("DFS:");
         // 深度优先搜索解树。

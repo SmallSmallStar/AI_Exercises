@@ -1,3 +1,5 @@
+package AndOrTree;
+
 import java.io.File;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -60,7 +62,7 @@ public class AndOrTree
 
             // 未知节点抛出异常。
             else
-                throw new Exception("Invalid data format of 'AndOrTreeNodeType' in file " + filePath + ", line " + (i + 1));
+                throw new Exception("Invalid data format of 'AndOrTree.AndOrTreeNodeType' in file " + filePath + ", line " + (i + 1));
 
             // 是否可解只有三种：可解，不可解，未知。
             Boolean solvable;
@@ -79,10 +81,10 @@ public class AndOrTree
 
             // 其他抛出异常。
             else
-                throw new Exception("Invalid data format of 'AndOrTreeNodeType' in file " + filePath + ", line " + (i + 1));
+                throw new Exception("Invalid data format of 'AndOrTree.AndOrTreeNodeType' in file " + filePath + ", line " + (i + 1));
 
             // 创建一个新的结点。
-            AndOrTreeNode node = new AndOrTreeNode(id,nodeType,solvable);
+            AndOrTreeNode node = new AndOrTreeNode(id, nodeType, solvable);
 
             // 将结点存入树结点数组。
             treeNodes[node.getId()] = node;

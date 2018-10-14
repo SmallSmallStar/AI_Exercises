@@ -1,3 +1,5 @@
+package AndOrTree;
+
 public class Bool
 {
     private boolean value;
