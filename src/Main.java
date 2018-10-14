@@ -11,6 +11,7 @@ public class Main
         // 打印解树。
         System.out.println(DFSSolutionTree);
 
+        // 空行。
         System.out.println();
 
         System.out.println("BFS:");
